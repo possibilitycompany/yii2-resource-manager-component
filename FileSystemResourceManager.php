@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2013 2amigOS! Consulting Group LLC
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace possibilitycompany\resourcemanager;
+namespace possibilitymovement\resourcemanager;
 
 use yii\helpers\ArrayHelper;
 use yii\base\Component;
