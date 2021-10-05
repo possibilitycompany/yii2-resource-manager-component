@@ -24,7 +24,7 @@ php composer.phar require possibilitycompany/yii2-resource-manager-component "*"
 or add
 
 ```json
-"possibilitycompany/yii2-resource-manager-component": "*"
+"possibilitymovement/yii2-resource-manager-component": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -40,7 +40,7 @@ Configure the selected component on your configuration file as follows:
 'components' => [  
 	// ...   
 	'resourceManager' => [
-	'class' => 'possibilitycompany\resourcemanager\AmazonS3ResourceManager',
+	'class' => 'possibilitymovement\resourcemanager\AmazonS3ResourceManager',
 		'key' => 'YOUR-AWS-KEY-HERE',
 		'secret' => 'YOUR-AWS-SECRET-HERE',
 		'bucket' => 'YOUR-AWS-BUCKET-NAME-HERE'
@@ -66,7 +66,7 @@ Notes
 -----
 
 Looking for a version for the Yii 1.1? There is dedicated repository for it:
-[possibilitycompany/resource-manager](https://github.com/possibilitycompany/resource-manager).
+[possibilitymovement/resource-manager](https://github.com/possibilitymovement/resource-manager).
 
 > [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)<br>
 <i>Web development has never been so fun!</i><br>
