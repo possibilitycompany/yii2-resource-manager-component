@@ -1,0 +1,25 @@
+{
+    "name": "possibilitycompany/yii2-resource-manager-component",
+    "description": "Resource manager eases your project resources management.",
+    "keywords": ["yii", "extension", "component", "resource"],
+    "homepage": "https://github.com/possibilitycompany/yii2-resource-manager-component",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Camilo Garzon",
+            "email": "possibilitycompany@servicios.in",
+            "homepage" : "http://ivangarzon.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "aws/aws-sdk-php": "3.178.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "possibilitycompany\\resourcemanager\\": ""
+        }
+    }
+}
